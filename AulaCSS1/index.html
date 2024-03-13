@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpyFlix</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #heading{
+            background: rgba(0,0,0,  0.8)
+        }
+        #heading div{
+            width: 95%;
+            display: flex;
+            justify-content: 
+            space-between;
+            margin: 0 auto;
+        }
+        #heading .logo{
+            padding: 10px 30px 10px 30px;
+            text-transform: uppercase;  
+            font-family: sans-serif;     
+            font-size: 32px;  
+        }
+        #heading a{
+            color: red;
+            text-decoration: none;
+        }
+        body{
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/76fcd07f-b171-49c7-8a77-6177ad5a6122/BR-pt-20240226-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+            background-size: cover;
+            background-position: top center;
+        }
+        #heading h2 a{
+            color: white;
+        }
+        .main div{
+           color: red;
+           padding: 100px 0 0 0;
+           font-size: 80px;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           display: flex;
+           justify-content:center
+        }
+        form{
+            display:flex;
+            justify-content: center;
+            font-size: 32px;
+            font-family: sans-serif;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header id="heading">  
+        <div>      
+            <h1 class="logo" style="text-align: left;">
+                <a href="http://127.0.0.1:5500/AulaCSS1/index.html">SpyFlix</a>       
+            </h1>
+
+            <h2 class="logo" style="text-align: left;">
+                <a href="http://127.0.0.1:5500/AulaCSS1/index.html">ENTRAR</a>       
+            </h2>  
+        </div>          
+    </header>
+    
+    <main class="main">
+    <div>
+         BEM VINDO!
+    </div>
+    <form action="index.html">
+        <label for="email">Email:</label> <br>
+        <input type="text" id="email" name="email"><br>
+    </form>
+    </main>
+</body>
+</html>
